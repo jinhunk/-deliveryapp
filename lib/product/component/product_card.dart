@@ -24,7 +24,7 @@ class ProductCard extends StatelessWidget {
       image: Image.network(
         model.imgUrl,
         width: 110,
-        height: 111,
+        height: 110,
         fit: BoxFit.cover,
       ),
       name: model.name,
